@@ -6,6 +6,8 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL2)
 file(GLOB SOURCES
     "src/*.h"
     "src/*.cpp"
+    "src/engine/*.h"
+    "src/engine/*.cpp"
 )
 add_executable(${PROJECT_NAME} ${SOURCES})
 
